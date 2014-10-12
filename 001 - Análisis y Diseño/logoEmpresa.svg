@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512"
+   height="512"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="logoEmpresa.svg">
+  <title
+     id="title2997">Logo Empresa</title>
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="-119.61202"
+     inkscape:cy="370.20373"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1440"
+     inkscape:window-height="847"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Logo Empresa</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(8e-6,-540.36217)">
+    <path
+       sodipodi:type="arc"
+       style="opacity:0.79000005;fill:#0000ff"
+       id="path2987"
+       sodipodi:cx="344"
+       sodipodi:cy="362.36218"
+       sodipodi:rx="184"
+       sodipodi:ry="184"
+       d="m 528,362.36218 a 184,184 0 1 1 -368,0 184,184 0 1 1 368,0 z"
+       transform="matrix(1.391134,0,0,1.391134,-222.58144,292.29915)" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:0.79000005;fill:#000080"
+       id="path2989"
+       sodipodi:cx="365"
+       sodipodi:cy="783.36218"
+       sodipodi:rx="145"
+       sodipodi:ry="139"
+       d="m 510,783.36218 a 145,139 0 1 1 -290,0 145,139 0 1 1 290,0 z"
+       transform="matrix(1.588771,0,0,1.6573511,-349.52963,-501.91263)" />
+    <text
+       xml:space="preserve"
+       style="font-size:51.19373322px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00ffff;fill-opacity:1;stroke:none;font-family:Aharoni;-inkscape-font-specification:Aharoni Bold"
+       x="226.0986"
+       y="756.43176"
+       id="text2991"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2993"
+         x="226.0986"
+         y="756.43176"
+         style="font-size:81.90997314px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#00ffff;font-family:Broadway;-inkscape-font-specification:Broadway">SOEEE</tspan><tspan
+         sodipodi:role="line"
+         x="226.0986"
+         y="858.81921"
+         id="tspan2995"
+         style="font-size:81.90997314px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#00ffff;font-family:Broadway;-inkscape-font-specification:Broadway">SISTEMAS</tspan></text>
+  </g>
+</svg>

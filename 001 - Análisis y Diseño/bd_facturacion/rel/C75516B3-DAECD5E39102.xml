@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="facturacion" id="C75516B3-AEA5-4837-1D78-DAECD5E39102" mainViewID="084948FC-C0DC-1092-9A80-5F7DC27268C4">
+<createdBy>eavila</createdBy>
+<createdTime>2014-09-29 00:44:36 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bd_facturacion</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>9807C1FA-0550-772D-1F14-16B19CA63681</selectedRDBMSSite>
+</relationalModel>

@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="bd_facturacion" id="21D19441-80AE-6DEE-254D-51C61DD3CB7D" version="3.5">
+<createdBy>eavila</createdBy>
+<createdTime>2014-09-28 23:45:22 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bd_facturacion</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>21D19441-80AE-6DEE-254D-51C61DD3CB7D</designId>
+</OSDM_Design>

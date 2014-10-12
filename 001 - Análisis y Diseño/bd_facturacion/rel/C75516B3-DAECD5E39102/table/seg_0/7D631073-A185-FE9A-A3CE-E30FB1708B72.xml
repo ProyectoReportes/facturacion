@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D631073-A185-FE9A-A3CE-E30FB1708B72" name="tbl_inventario">
+<createdBy>eavila</createdBy>
+<createdTime>2014-09-29 02:14:41 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bd_facturacion</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_entrada" id="04BC35F6-5636-2FBE-8626-F5E7279F974A">
+<createdBy>eavila</createdBy>
+<createdTime>2014-09-29 02:17:13 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bd_facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18</dataTypeSize>
+<delegate>95361B78-581B-7329-F91F-688BC7496E97</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9CB730A0-7078-BEC8-19CC-D696FC5F2C6E" referredColumn="95361B78-581B-7329-F91F-688BC7496E97"/>
+</associations>
+</Column>
+<Column name="cantidad_total" id="30D8E2AA-F507-3B60-0FDB-C676ABA64508">
+<createdBy>eavila</createdBy>
+<createdTime>2014-09-29 02:17:13 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bd_facturacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad_disponible" id="A6359EA1-FCEE-140F-9DA1-1463A7D3ED66">
+<createdBy>eavila</createdBy>
+<createdTime>2014-09-29 02:17:13 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bd_facturacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ubicacion" id="0B3CC328-05F7-D41C-A7CE-0E70C71EE434">
+<createdBy>eavila</createdBy>
+<createdTime>2014-09-29 02:17:13 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bd_facturacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="570A1BBD-47C0-D7F8-D8C7-362BD66F6D82" name="tbl_inventario_PK">
+<createdBy>eavila</createdBy>
+<createdTime>2014-09-29 02:17:13 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bd_facturacion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04BC35F6-5636-2FBE-8626-F5E7279F974A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76D33D9E-C6C2-5E49-9D86-C518344042BB" name="tbl_inventario_tbl_entrada_FK">
+<createdBy>eavila</createdBy>
+<createdTime>2014-09-29 02:18:02 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bd_facturacion</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04BC35F6-5636-2FBE-8626-F5E7279F974A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

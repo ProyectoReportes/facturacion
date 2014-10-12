@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A8F46B70-86CA-C109-8FCE-FC71E8F969BC" name="tbl_unidad_medida">
+<createdBy>eavila</createdBy>
+<createdTime>2014-09-29 02:02:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bd_facturacion</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_unidad_medida" id="C9AEC4FD-C864-AFF9-539F-926182BBA04F">
+<createdBy>eavila</createdBy>
+<createdTime>2014-09-29 02:03:19 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bd_facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="A51FF25C-B70A-262B-0AEF-788B03E3A104">
+<createdBy>eavila</createdBy>
+<createdTime>2014-09-29 02:04:35 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bd_facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="abreviatura" id="C91B3110-0FAA-4DBE-8DD6-B4D5863A5BB1">
+<createdBy>eavila</createdBy>
+<createdTime>2014-09-29 02:04:35 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bd_facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1FA03B05-B84E-D819-BE29-FD01BDB4549E" name="tbl_unidad_medida_PK">
+<createdBy>eavila</createdBy>
+<createdTime>2014-09-29 02:03:19 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bd_facturacion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9AEC4FD-C864-AFF9-539F-926182BBA04F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

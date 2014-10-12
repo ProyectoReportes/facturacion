@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="67C1556F-877C-F2AC-93CB-A064ECE24EF3" name="tbl_salida_tbl_inventario_FK">
+<createdBy>eavila</createdBy>
+<createdTime>2014-10-05 15:17:31 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bd_facturacion</ownerDesignName>
+<containerWithKeyObject>E26634DF-82FA-81D2-2A51-BA0A439EF24E</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>91BF7185-3F8B-CB37-8453-A7AC1C6D7CF4</localFKIndex>
+<keyObject>570A1BBD-47C0-D7F8-D8C7-362BD66F6D82</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

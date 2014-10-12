@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FD960AAF-B8C7-E41B-5FDB-38772DBD3187" name="tbl_entrada">
+<createdBy>eavila</createdBy>
+<createdTime>2014-09-29 00:55:53 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bd_facturacion</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_entrada" id="95361B78-581B-7329-F91F-688BC7496E97">
+<createdBy>eavila</createdBy>
+<createdTime>2014-09-29 01:02:31 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bd_facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="6A44BF1C-3FB5-80D2-DE36-AF74C03BBFA0">
+<createdBy>eavila</createdBy>
+<createdTime>2014-09-29 01:02:31 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bd_facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_marca" id="0B6FF534-64F4-860B-5CBF-DF6B9C6D1F79">
+<createdBy>eavila</createdBy>
+<createdTime>2014-09-29 01:02:31 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bd_facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<delegate>28D1C7AD-E2DE-A08C-6C36-E42594D6DF97</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9EB2312-2761-01A3-7E31-9C1898469C39" referredColumn="28D1C7AD-E2DE-A08C-6C36-E42594D6DF97"/>
+</associations>
+</Column>
+<Column name="cantidad" id="DD614568-B0E3-94E8-965F-E207170B41D9">
+<createdBy>eavila</createdBy>
+<createdTime>2014-09-29 01:02:31 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bd_facturacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio_unidad" id="058E6DA4-D445-5B8C-22F2-EA713D7F391D">
+<createdBy>eavila</createdBy>
+<createdTime>2014-09-29 01:02:31 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bd_facturacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_factura" id="E0128639-01AA-CC6C-427A-C0F83C65E863">
+<createdBy>eavila</createdBy>
+<createdTime>2014-09-29 01:02:31 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bd_facturacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_producto" id="A33A473C-9BC6-B0E0-221D-64C0B26DFD2F">
+<createdBy>eavila</createdBy>
+<createdTime>2014-09-30 14:51:12 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bd_facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<delegate>D025F7AD-2DF4-A0D0-7ADD-5BF05343AF26</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ECD409DB-BEF2-1D5E-3D7C-1179911BBD47" referredColumn="D025F7AD-2DF4-A0D0-7ADD-5BF05343AF26"/>
+</associations>
+</Column>
+<Column name="id_proveedor" id="AAE68586-01DD-2ADF-035E-5406DADD365B">
+<createdBy>eavila</createdBy>
+<createdTime>2014-10-11 21:08:00 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bd_facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<delegate>CFC4C56E-0E0F-0B3C-94D8-A4A7926C3919</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="17CF83CB-CF2E-952D-DE13-881FB0BCA93B" referredColumn="CFC4C56E-0E0F-0B3C-94D8-A4A7926C3919"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A4F6CB3F-CD89-D778-A4EE-8CCF414F4BA0" name="tbl_entrada_PK">
+<createdBy>eavila</createdBy>
+<createdTime>2014-09-29 01:02:31 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bd_facturacion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95361B78-581B-7329-F91F-688BC7496E97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23404A22-21E3-6F45-F4A7-5F320096C967" name="tbl_entrada_tbl_producto_FK">
+<createdBy>eavila</createdBy>
+<createdTime>2014-10-05 15:14:53 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bd_facturacion</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A33A473C-9BC6-B0E0-221D-64C0B26DFD2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EFC03274-0E9B-DAA6-B679-B4C204AB2DC8" name="tbl_entrada_tbl_marca_FK">
+<createdBy>eavila</createdBy>
+<createdTime>2014-10-05 15:15:22 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bd_facturacion</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B6FF534-64F4-860B-5CBF-DF6B9C6D1F79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2F796E6-F542-8033-3A63-C34C097943D6" name="tbl_entrada_tbl_proveedores_FK">
+<createdBy>eavila</createdBy>
+<createdTime>2014-10-11 21:08:00 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bd_facturacion</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAE68586-01DD-2ADF-035E-5406DADD365B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

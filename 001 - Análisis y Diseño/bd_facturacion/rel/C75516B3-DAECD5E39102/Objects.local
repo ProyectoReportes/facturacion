@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="2C30411A-C4F5-BB50-901F-696D855AAD2E" name="tbl_rol" seqName="seg_0"/>
+   <object objectType="Table" objectID="56DEF8A8-87B9-F598-C035-133C9BCB4592" name="tbl_producto" seqName="seg_0"/>
+   <object objectType="Table" objectID="593917D8-F462-5B84-44AB-4AEBF903D202" name="tbl_proveedores" seqName="seg_0"/>
+   <object objectType="Table" objectID="6A47D591-3A93-4738-4DA4-9186A4C03600" name="tbl_cliente" seqName="seg_0"/>
+   <object objectType="Table" objectID="70B134FA-9C87-56B6-0414-D30002EE1A35" name="tbl_usuarios" seqName="seg_0"/>
+   <object objectType="Table" objectID="7D631073-A185-FE9A-A3CE-E30FB1708B72" name="tbl_inventario" seqName="seg_0"/>
+   <object objectType="Table" objectID="A8F46B70-86CA-C109-8FCE-FC71E8F969BC" name="tbl_unidad_medida" seqName="seg_0"/>
+   <object objectType="Table" objectID="D1A40CFF-3AF6-F8A4-9F21-F9865425DFDE" name="tbl_marca" seqName="seg_0"/>
+   <object objectType="Table" objectID="E26634DF-82FA-81D2-2A51-BA0A439EF24E" name="tbl_salida" seqName="seg_0"/>
+   <object objectType="Table" objectID="FD960AAF-B8C7-E41B-5FDB-38772DBD3187" name="tbl_entrada" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="17CF83CB-CF2E-952D-DE13-881FB0BCA93B" name="tbl_entrada_tbl_proveedores_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="67C1556F-877C-F2AC-93CB-A064ECE24EF3" name="tbl_salida_tbl_inventario_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="6D4025F3-7BA5-C986-35E1-B78A9722AD5B" name="tbl_salida_tbl_cliente_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="9CB730A0-7078-BEC8-19CC-D696FC5F2C6E" name="tbl_inventario_tbl_entrada_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="AD7E3E3F-B994-0530-7D37-CEF12110080A" name="tbl_usuarios_tbl_rol_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="C56A8AB8-F7A7-5287-CEEB-5BF442BEB170" name="tbl_prduct_tbl_u_medida_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="D0FF69AE-7A58-F740-C431-B7C1B8F2083E" name="tbl_salida_tbl_usuarios_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="D9EB2312-2761-01A3-7E31-9C1898469C39" name="tbl_entrada_tbl_marca_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="ECD409DB-BEF2-1D5E-3D7C-1179911BBD47" name="tbl_entrada_tbl_producto_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>
