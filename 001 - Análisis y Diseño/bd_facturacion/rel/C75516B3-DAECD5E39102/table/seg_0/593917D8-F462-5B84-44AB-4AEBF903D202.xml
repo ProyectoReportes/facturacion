@@ -36,7 +36,8 @@
 <ownerDesignName>bd_facturacion</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT028</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="telefono" id="C6DEB386-4CBF-17EC-17BF-76045928F5C7">

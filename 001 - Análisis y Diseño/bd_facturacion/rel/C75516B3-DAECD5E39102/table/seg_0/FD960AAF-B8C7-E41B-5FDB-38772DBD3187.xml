@@ -25,7 +25,18 @@
 <ownerDesignName>bd_facturacion</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora" id="4724C4F1-AF06-AF06-28DD-CD985ECA1ABC">
+<createdBy>eavila</createdBy>
+<createdTime>2014-10-12 09:22:10 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bd_facturacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="id_marca" id="0B6FF534-64F4-860B-5CBF-DF6B9C6D1F79">

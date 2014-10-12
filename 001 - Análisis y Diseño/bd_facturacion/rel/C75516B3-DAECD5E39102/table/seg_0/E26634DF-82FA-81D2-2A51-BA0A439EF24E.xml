@@ -65,7 +65,18 @@
 <ownerDesignName>bd_facturacion</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora" id="1B333764-3850-9CE5-181F-2F74BDB2B719">
+<createdBy>eavila</createdBy>
+<createdTime>2014-10-12 09:23:41 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bd_facturacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="estado_inventario" id="09FC4679-7BE8-21F5-7051-9A7DC44AED5D">

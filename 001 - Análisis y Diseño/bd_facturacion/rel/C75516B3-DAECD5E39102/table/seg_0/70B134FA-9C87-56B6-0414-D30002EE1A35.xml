@@ -99,7 +99,18 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="h_creacion" id="E6CB8A1B-7F01-133B-ABF5-D8456E97DFF3">
+<createdBy>eavila</createdBy>
+<createdTime>2014-10-12 09:24:43 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bd_facturacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="f_ultimo_ingreso" id="A26B2D86-55BA-85DC-8B06-A28A1B0647FA">
@@ -111,6 +122,17 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="h_ultimo_ingreso" id="42C923DF-EA9E-5E86-DD8C-92C98F8226E0">
+<createdBy>eavila</createdBy>
+<createdTime>2014-10-12 09:24:43 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>bd_facturacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
